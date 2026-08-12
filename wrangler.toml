@@ -24,7 +24,7 @@ bucket_name = "cfblog"
 # Then uncomment and replace the ids below.
 [[kv_namespaces]]
 binding = "CACHE"
-id = "39cea09f-33a6-4d47-ae89-d401182014cf"
+id = "ac33bab4414345c3b334b296010a257d"
 # preview_id = "your-preview-kv-namespace-id"
 
 # Workers AI binding
