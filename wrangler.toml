@@ -10,12 +10,12 @@ compatibility_date = "2024-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "cfblog-db"
-database_id = "22b5f9d0-291f-4f00-b785-d5fbb1075278"
+database_id = "39cea09f-33a6-4d47-ae89-d401182014cf"
 
 # R2 Storage binding
 [[r2_buckets]]
 binding = "MEDIA"
-bucket_name = "cfblog-media"
+bucket_name = "cfblog"
 
 # KV cache binding
 # Create namespaces first:
@@ -24,7 +24,7 @@ bucket_name = "cfblog-media"
 # Then uncomment and replace the ids below.
 [[kv_namespaces]]
 binding = "CACHE"
-id = "917dde84089e4ac6ab1d5ba49fe272aa"
+id = "39cea09f-33a6-4d47-ae89-d401182014cf"
 # preview_id = "your-preview-kv-namespace-id"
 
 # Workers AI binding
